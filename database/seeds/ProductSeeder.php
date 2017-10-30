@@ -14,11 +14,13 @@ class ProductSeeder extends Seeder
         DB::table('product_tbl')->insert([
             [
             'nameProduct' => 'SilverQueen',
-            'price' => '20000'
+            'price' => '20000',
+                'image'=>'image1.jpg'
             ],
             [
              'nameProduct' => 'Nano-nano',
-             'price' => '4000'
+             'price' => '4000',
+                'image'=>'image2.jpg'
             ]
         ]);
     }
